@@ -25,4 +25,4 @@ Finally, we have to list all non empty .csv files of the directory into a .txt f
 
 Command: ls | grep '.csv' > sax.txt
 
-Fourth: We calculated summary statistics within the span window. We have calculated mean, median, skewness, kurtosis, first-quartile and 2 nd quartile using a MATLAB program inside the folder where all .csv files exist. Name of the program in my case is final_data_machine.m
+Fourth: We calculated summary statistics within the span window. We have calculated mean, median, skewness, kurtosis, first-quartile and 2 nd quartile using a MATLAB program inside the folder where all .csv files exist. We have used final_data_generation_machine_learning.m program for that purpose.
