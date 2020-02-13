@@ -5,7 +5,7 @@ In this study, our aim is to distinguish flaring active region from the non-flar
 We have used SDO/HMI active region magnetogram data for this study. One can download the data from JSOC website. One can develop their own program to create the database of magnetic parameters (one can see our python script for generation of magnetic parameters) or, one can download magnetic parameter keywords from JSOC directly. HMI team provides us directly the magnetic parameter keywords which can also be used for the study. One can download SHARPs data keyword using drms client.  
 
 
-First, we have to generate a database for flaring and non-flaring active region. One can use flare_noflare_database.py for this purpose.
+First, we have to generate a database for flaring and non-flaring active region. One can use flare_noflare_database.py for this purpose. Our database also only considers the data which is within +/- 72 degree.
 
 Second, we have to go back 24 hr, and we have to cut a 12 hr window. For this purpose we have used final_positive.m for flaring active region; and final_negative.m for non-flaring active region. We use MATLAB programming language for that purpose. If non-flaring active region exists for 14 days in the solar surface. We use day number 7 as a reference., i.e., middle point.
 
