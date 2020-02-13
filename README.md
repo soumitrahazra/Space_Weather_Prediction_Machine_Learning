@@ -16,6 +16,7 @@ Third, we saved all .csv generated files in a folder. Then we use some R-program
 R program for removing empty .csv files in a directory:
 
 library(R.utils)
+
 lapply(Filter(function(x) countLines(x)<=3, list.files(pattern='.csv')), unlink)
 
 Using this two command line in R, we can remove all empty .csv files from a directory. It is necessary for this project because we have to list all non-empty .csv files of a directory into a .txt file.
