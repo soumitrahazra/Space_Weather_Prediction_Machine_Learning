@@ -25,4 +25,6 @@ Finally, we have to list all non empty .csv files of the directory into a .txt f
 
 Command: ls | grep '.csv' > sax.txt
 
-Fourth: We calculated summary statistics within the span window. We have calculated mean, median, skewness, kurtosis, first-quartile and third quartile using a MATLAB program inside the folder where all .csv files exist. We have used final_data_generation_machine_learning.m program for that purpose.
+Fourth: We calculated summary statistics within the span window. We have calculated mean, median, skewness, kurtosis, first-quartile and third quartile using a MATLAB program inside the folder where all .csv files exist. We have used final_data_generation_machine_learning.m program for that purpose. We agree that this summarization is very simple. We will improve the time series summarization in our future work.
+
+Fifth: Now our dataset is ready for the application of machine learning algorithm. We have applied different machine learning algorithms over our data set.
